@@ -51,8 +51,9 @@ header {
   -o-background-size: cover;
   background-size: cover;
   margin-bottom: 4em;
-  text-align: center;
-  height: 500px;
+  text-align: center center;
+  /* height: 500px; */
+  height: 100vh;
  
 }
 
