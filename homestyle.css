@@ -166,6 +166,10 @@ i {
   padding: 7px;
 }
 
+.hiddenspace {
+  display: inline;
+}
+
 @media screen and (min-width: 50em) {
   header {
     height: 93vh;
@@ -196,6 +200,10 @@ i {
   .centerprofile {
     text-align: left;
     padding: 1em;
+  }
+
+  .hiddenspace {
+    display: none;
   }
 
 }
