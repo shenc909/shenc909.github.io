@@ -66,19 +66,19 @@ header h1 {
   opacity: 1;
   /* text-shadow: 0 3px 0 rgba(0,0,0, 0.5); */
   position: relative;
-  top: 30vh;
+  top: 40vh;
   font-weight: 700;
 }
 
 header h2 {
   color: white;
-  font-size: 2em;
+  font-size: 4em;
   margin: 0;
   letter-spacing: 1px;
   opacity: 1;
   /* text-shadow: 0 3px 0 rgba(0,0,0, 0.5); */
   position: relative;
-  top: 15vh;
+  top: 20vh;
   font-weight: 700;
 }
 
@@ -89,7 +89,7 @@ header p {
   padding-top: .5em;
   opacity: .9;
   position: relative;
-  top: 30vh;
+  top: 40vh;
 }
 
 header nav {
