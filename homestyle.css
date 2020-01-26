@@ -54,7 +54,7 @@ header {
   margin-bottom: 4em;
   text-align: center;
   /* height: 500px; */
-  height: 100vh;
+  height: 97vh;
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
 }
 
@@ -66,35 +66,35 @@ header h1 {
   opacity: 1;
   /* text-shadow: 0 3px 0 rgba(0,0,0, 0.5); */
   position: relative;
-  top: 370px;
+  top: 10em;
   font-weight: 700;
 }
 
 header h2 {
   color: white;
-  font-size: 2em;
+  font-size: 1.5em;
   margin: 0;
   letter-spacing: 1px;
   opacity: 1;
   /* text-shadow: 0 3px 0 rgba(0,0,0, 0.5); */
   position: relative;
-  top: 370px;
+  top: 13.5em;
   font-weight: 700;
 }
 
 header p {
   color: #fff;
-  font-size: 2em;
+  font-size: 1.2em;
   padding-bottom: 1.3em;
   padding-top: .5em;
   opacity: .9;
   position: relative;
-  top: 360px;
+  top: 16.5em;
 }
 
 header nav {
   background-color: rgba(0,0,0, 0.5);
-  font-size: 1.5em;
+  font-size: 1em;
   color: #fff;
   padding: 0.5em;
 }
@@ -132,13 +132,13 @@ footer hr {
 }
 
 .centerprofile {
-  text-align: left;
+  text-align: center;
   padding: 1em;
 }
 
 div section img  {
-  float: left;
-  width: 40%;
+  float: top;
+  width: 80%;
   height: auto;
   padding: 1em;
 }
@@ -159,6 +159,13 @@ div section img  {
   cursor: pointer;
 }
 
+i {
+  border: solid white;
+  border-width: 0 0.1em 0.1em 0;
+  display: inline-block;
+  padding: 7px;
+}
+
 @media screen and (min-width: 50em) {
   header {
     height: 93vh;
@@ -177,6 +184,18 @@ div section img  {
   header p {
     top: 35vh;
     font-size: 1.5em;
+  }
+
+  div section img  {
+    float: left;
+    width: 40%;
+    height: auto;
+    padding: 1em;
+  }
+
+  .centerprofile {
+    text-align: left;
+    padding: 1em;
   }
 
 }
@@ -380,13 +399,6 @@ div section img  {
     text-align: left;
   }
   
-}
-
-i {
-  border: solid white;
-  border-width: 0 0.3em 0.3em 0;
-  display: inline-block;
-  padding: 10px;
 }
 
 .right {
