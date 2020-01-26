@@ -51,10 +51,9 @@ header {
   -o-background-size: cover;
   background-size: cover;
   margin-bottom: 4em;
-  text-align: center center;
+  text-align: center;
   /* height: 500px; */
   height: 100vh;
- 
 }
 
 header h1 {
@@ -71,12 +70,24 @@ header h1 {
 
 header p {
   color: #fff;
-  font-size: 1.1em;
+  font-size: 2em;
   padding-bottom: 1.3em;
   padding-top: .5em;
   opacity: .9;
   position: relative;
   top: 360px;
+}
+
+header nav {
+  background-color: rgba(0,0,0, 0.5);
+  font-size: 1.5em;
+  color: #fff;
+  padding: 0.5em;
+}
+
+header nav a {
+  color: white;
+  padding: 0.5em;
 }
 
 section h1 {
@@ -108,18 +119,19 @@ footer hr {
 
 @media screen and (min-width: 50em) {
   header {
-    height: 700px;
+    height: 93vh;
   }
   
   header h1 {
-    font-size: 3.2em;
-    top: 540px;
+    font-size: 7em;
+    top: 25vh;
   }
   
   header p {
-    top: 530px;
+    top: 25vh;
     font-size: 1.5em;
   }
+
 }
 
 
@@ -323,3 +335,29 @@ footer hr {
   
 }
 
+i {
+  border: solid white;
+  border-width: 0 0.3em 0.3em 0;
+  display: inline-block;
+  padding: 10px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
