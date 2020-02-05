@@ -48,4 +48,4 @@ The autonomous car was in the end stripped of autonomy and put in to the efficie
 
 (Here's a video of a low speed control test of the car via remote control)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9p-S8K_eDsI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+<iframe width="200" height="315" src="https://www.youtube.com/embed/9p-S8K_eDsI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
