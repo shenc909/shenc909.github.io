@@ -8,13 +8,13 @@ Developing an autonomous electric race car.
 
 ## Introduction
 
-![<img src="{{ site.baseurl }}/images/project_images/semautoteam.JPG" alt="Team photo of NTU SEM 2019 Autonomous"]()
+![<img src="{{ site.baseurl }}/images/project_images/semautoteam.JPG" alt="Team photo of NTU SEM 2019 Autonomous"/>]()
 
 Shell EcoMarathon is a competition held by Shell for universities to develop the most efficient track vehicles. Contestants are judged based on speed, efficiency and a race. In 2019, an Autonomous Vehicle category was added.
 
 ## Overview of Task
 
-![<img src="{{ site.baseurl }}/images/project_images/semauto.jpg" alt="An image of the autonomous car"]()
+![<img src="{{ site.baseurl }}/images/project_images/semauto.jpg" alt="An image of the autonomous car"/>]()
 
  - Design a system to translate navigation instructions from a Jetson TX2 to the signals required by the actuators
  - Design the overall system architecture of the car
@@ -40,7 +40,7 @@ The pros and cons of each sensor system was weighted to ensure each covers the o
 
 ## Conclusion
 
-![<img src="{{ site.baseurl }}/images/project_images/semteam.JPG" alt="Team photo of NTU SEM 2019"]()
+![<img src="{{ site.baseurl }}/images/project_images/semteam.JPG" alt="Team photo of NTU SEM 2019"/>]()
 
 While the competition category was withdrawn in the end (due to the lack of autonomous competitors), I have gained a lot through my own research during the development of this car, as well as through discussing various issues with those who have expertise in differing areas.
 
