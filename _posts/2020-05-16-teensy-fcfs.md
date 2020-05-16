@@ -32,7 +32,7 @@ From an assembly standpoint, all components chosen are no smaller than 0806 to f
 
 The firmware of the flight controller is still in progress. It's currently being built using PlatformIO, as opposed to the Arduino IDE, which provides better support for larger, more complicated projects. Open source code from Sparkfun for the MPU-9250 is used and modified for better performance, as well as tuned for the specific magnetic field adjustments required for Berkeley, Calfornia.
 
-As of now, the code provides barebone access to the fused orientation of the flight controller, and an arming sequence for safety. The code also provides some libraries for controlling the onboard LED, PID control and generating the PWM signals required for the ESCs. This helps to reduce the complexity of the main loop by abstracting away commonly used functions, and helps to improve our ability to optimise the main loop for better performance and reduced processing latency.
+As of now, the code provides barebone access to the fused orientation of the flight controller, and an arming sequence for safety. The code also provides some libraries for controlling the onboard LED, PID control and generating the PWM signals required for the ESCs. This helps to reduce the complexity of the main loop by abstracting away commonly used functions, and improves our ability to optimise the main loop for better performance with reduced processing latency.
 
 As of now, stability control is via a PID controller, with tuned values. However, performance is not good enough for stable flight at the moment. Future updates would include experimenting with LQR control which appears to provide better performance.
 
@@ -44,7 +44,7 @@ As of now, stability control is via a PID controller, with tuned values. However
 
 This project is a collaboration with Pan Xin-Min, my classmate from REP, and we currently have plans to continue developing this board.
 
-While the project is still ongoing, it has taught me a great deal about PCB design. As a first-timer to PCB design, this project has helped to bring me through the various stages of design, from drawing schematics, to trace routing. This project also helped me get familiar with KiCAD, which is a useful PCB design tool.
+While the project is still ongoing, it has taught me a great deal about PCB design. As a first-timer to this, the project has helped to bring me through the various stages of design, from drawing schematics, to trace routing. This project also helped me get familiar with KiCAD, which is a useful PCB design tool.
 
 The firmware development will help me gain more experience with optimising code for high performance, as well as test various control strategies learnt from the UCB EE128 Feedback Control Systems module that I took. I hope to have it flying well eventually.
 
