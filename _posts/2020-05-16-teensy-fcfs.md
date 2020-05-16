@@ -45,3 +45,5 @@ As of now, stability control is via a PID controller, with tuned values. However
 While the project is still ongoing, it has taught me a great deal about PCB design. This project is a collaboration with Pan Xin-Min, my classmate from REP, and we currently have plans to continue developing this board. As a first-timer to PCB design, this project has helped to bring me through the various stages of design, from drawing schematics, to trace routing. This project also helped me get familiar with KiCAD, which is a useful PCB design tool.
 
 The firmware development will help me gain more experience with optimising code for high performance, as well as test various control strategies learnt from the UCB EE128 Feedback Control Systems module that I took. I hope to have it flying well eventually.
+
+The code repository is accessible via my GitHub here: <a href="https://github.com/shenc909/TeensyFCFS">https://github.com/shenc909/TeensyFCFS</a>
